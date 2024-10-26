@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/Jost-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'sfpro';
+    src: url('assets/fonts/SF-Pro-Display-Black.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+}
+
+canvas {
+    background-image: radial-gradient(circle at top right, rgba(104, 57, 133, 0.13), transparent), radial-gradient(circle at 20% 80%, rgba(41, 194, 255, 0.055), transparent);
+    position: fixed;
+    width: 96.5%;
+    height: 90%;
+    top: 4vh;
+    left: 1.5vw;
+    border: 1px solid white;
+    pointer-events: none;
+}
